@@ -1,0 +1,104 @@
+.PersonneManagement-wrapper{
+    margin-top: 20px;
+    overflow: hidden;
+    position: relative;
+    .ivu-spin-main{
+        top:200px !important;
+      }
+    .PersonneManagement-wrapper-head{
+       .PersonneManagement-head-title{
+           display: inline-block;
+           border-left: 2px solid #2d8cf0;
+           height: 14px;
+           font-size: 16px;
+           padding-left: 8px;
+           line-height: 14px;
+       }
+    }
+    .PersonneManagement-wrapper-main{
+        background: #fff;
+        padding: 10px 10px 80px 10px;
+        box-sizing: border-box;
+        margin-top: 30px;
+        .PersonneManagement-main-search{
+            margin-bottom: 8px;
+            float: right;
+        }
+        .pages{
+            float: right;
+            margin-top: 30px;
+            .number{
+               border: 1px solid #D1DBE5;
+            }
+            .more{
+                border: 1px solid #D1DBE5;
+            }
+            .active{
+                color: #fff;
+                background: #2d8cf0;
+            }
+        }
+    }
+    .PersonneManagement-mark{
+        position: fixed;
+        left: 0;
+        top: 0;
+        background: rgba(155, 155, 155, .7);
+        z-index: 1111;
+        .mark-content{
+            width: 538px;
+            height: 350px;
+            background: #fff;
+            border-radius: 6px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin:-175px 0 0 -266px;
+            padding: 10px;
+            box-sizing: border-box;
+            h3{
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+            position: relative;
+            font-size: 16px;
+            color: #202020;
+            font-weight: normal;
+            border-bottom: 1px solid #eaeef2;
+            span{
+                position: absolute;
+                right: 0px;
+                font-size: 20px;
+                color: #ececec;
+                font-weight: bold;
+                top:12px;
+            }
+        }
+        .jobInformation-lists{
+             margin: 40px;
+            .newcreate-jobInformation-title{
+                font-size: 14px;
+                font-weight: bold;
+                color: #202020;
+                margin-right: 25px;
+            }
+            .newcreate-jobInformation-title{
+                font-size: 14px;
+                color: #202020;
+                font-weight: normal;
+            }
+            .jiaose-title{
+                margin: 20px 0 20px 0;
+                font-size: 14px;
+                color: #202020;
+            }
+            .is-checked{
+               color: #2d8cf0
+            }
+            label{
+                margin-right: 30px;
+            }
+        }
+      }
+    }
+}

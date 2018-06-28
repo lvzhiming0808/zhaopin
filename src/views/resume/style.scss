@@ -1,0 +1,404 @@
+.resume-wapper {
+    padding-top: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    .ivu-spin-main{
+        top:200px !important;
+      }
+    .routeractive {
+        background: #fff;
+        color: #2d8cf0;
+        border-left: 2px solid #2d8cf0;
+    }
+    .resume-head {
+        padding-bottom: 15px;
+        line-height: 32px;
+        overflow: hidden;
+        .search-wrapper-head {
+            overflow: hidden;
+            float: left;
+            line-height: 32px;
+            .search-wrapper-head-text {
+                display: inline-block;
+                width: 80px;
+                height: 14px;
+                line-height: 14px;
+                border-left: 2px solid #2d8cf0;
+                font-size: 16px;
+                padding-left: 8px;
+            }
+        }
+        .morenselect {
+            float: left;
+        }
+        .moreninput {
+            float: left;
+            margin-left: 15px;
+        }
+        .morenbtn {
+            float: right;
+        }
+    }
+    .resum-bg {
+        clear: both;
+        background: #fff;
+        overflow: hidden;
+        height: 100%;
+        min-width: 1026px;
+        .leftb {
+            a {
+                padding-top: 6px;
+                padding-bottom: 6px;
+            }
+        }
+        clear: both;
+        height: 100%;
+        .leftbg {
+            background: #f8f8f8;
+            float: left;
+            background: #f8f8f8;
+            text-align: left;
+            width: 11%;
+            .active .text {
+                color: #2d8cf0;
+                border-left: 2px solid #2d8cf0;
+            }
+            a {
+                line-height: 52px;
+                height: 52px;
+                span {
+                    font-family: 微软雅黑;
+                    font-size: 14px;
+                }
+            }
+        }
+        .leftbox {
+            float: left;
+            background: #f8f8f8;
+            text-align: left;
+            width: 10%;
+            min-height: 700px;
+            a {
+                display: block;
+            }
+        }
+        .rightbg {
+            background: #fff;
+            width: 90%;
+            float: left;
+            .branch {
+                font-size: 14px;
+                font-family: 微软雅黑;
+                .branchleft {
+                    float: left;
+                    p {
+                        float: left;
+                        line-height: 20px;
+                        margin-right: 10px;
+                        font-size: 12px;
+                    }
+                    .result {
+                        margin-left: 5px;
+                    }
+                    .ball {
+                        margin-left: 18px;
+                        color: #adadad;
+                        overflow: hidden;
+                        padding-top: 10px;
+                        .ivu-select-dropdown{
+                            overflow: hidden;
+                            
+                        }
+                    }
+                }
+                .branchright {
+                    float: right;
+                    .branchright-head {
+                        margin-top: 10px;
+                        font-size: 14px;
+                        color: #2d8cf0;
+                        margin-right: 20px;
+                        .rebut{
+                            vertical-align: middle;
+                        }
+                    }
+                    .modal-togiveUp {
+                        .ivu-modal-wrap {
+                            z-index: 5000;
+                        }
+                    }
+                }
+            }
+            .allgo {
+                background: #f8f8f8;
+                border-bottom: none;
+                margin: 10px 20px 0px 20px;
+                padding: 10px;
+                overflow: hidden;
+                .tuisong {
+                    float: right;
+                    position: absolute;
+                    right: 20px;
+                    clear: both;
+                    a {
+                        font-size: 14px;
+                    }
+                    .yiru,
+                    .ts,
+                    .mstz,
+                    .fq,
+                    .fp {
+                        float: left;
+                    }
+                    .yr,
+                    .fq,
+                    .fp {
+                        font-family: 微软雅黑;
+                        .randompeop {
+                            font-size: 14px;
+                            color: #9f9f9f;
+                            margin-left: 17%;
+                        }
+                        .tianjia {
+                            margin-left: 100px;
+                            margin-top: 15px;
+                            background: #eaeef2;
+                            .button-new-tag {
+                                margin-left: 10px;
+                                height: 32px;
+                                line-height: 30px;
+                                padding-top: 0;
+                                padding-bottom: 0;
+                            }
+                            .input-new-tag {
+                                width: 90px;
+                                margin-left: 10px;
+                                vertical-align: bottom;
+                            }
+                        }
+                        .recommender {
+                            margin-left: 20px;
+                            margin-top: 15px;
+                            .demonstration {
+                                display: block;
+                                width: 80px;
+                                float: left;
+                            }
+                        }
+                        .timeyes {
+                            width: 30%;
+                        }
+                        .beizhu {
+                            width: 70%;
+                        }
+                        .shugang {
+                            // border-right: 1px solid #d1d1d1;
+                            font-size: 12px;
+                            line-height: 15px;
+                            text-align: center;
+                            padding-left: 12px;
+                            padding-right: 12px;
+                            color: #000;
+                        }
+                        .shugang2 {
+                            margin-left: 10px;
+                            border-right: none;
+                            color: #000;
+                        }
+                        .sex {
+                            color: #ffa8db;
+                            width: 1.2em;
+                            height: 1.2em;
+                            margin-right: 5px;
+                            vertical-align: super !important;
+                        }
+                    }
+                    a {
+                        color: #2d8cf0;
+                        margin-left: 43px;
+                        font-size: 14px;
+                        font-family: 微软雅黑;
+                    }
+                }
+            }
+            .rightbox {
+                margin: 10px 20px 10px 20px;
+                overflow: hidden;
+                background:#f8f8f8;
+                .resume_occupy {
+                    text-align: center
+                }
+                .right-cont {
+                    margin: 10px 5px;
+                    cursor: pointer;
+                    .ivu-card-body{
+                        padding: 12px;
+                    }
+                    .headphoto {
+                        position: relative;
+                        text-align: center;
+                        padding-top: 25px;
+                        padding-bottom: 10px;
+                    }
+                    .username {
+                        max-width: 300px;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        display: inline-block;
+                        font-size: 18px;
+                    }
+                    .username,
+                    .sex {
+                        font-family: PingFangSC-Regular;
+                        font-size: 18px;
+                        color:rgba(74,74,74,1);
+                        text-align: left;
+                    }
+                    .sex {
+                        position: absolute;
+                        left: 75%;
+                        top:22px;
+                        font-size: 14px;
+                    }
+                    .tag{
+                        position: absolute;
+                        top: -3px;
+                        margin-left: 5px;
+                    }
+                    .mt {
+                        margin-top: 10px;
+                    }
+                    .rightfanye {
+                        float: right;
+                        margin: 20px 0px;
+                    }
+                    .check {
+                        line-height: 110px;
+                        text-align: center;
+                    }
+                    .right-head {
+                        border-radius: 50%;
+                        height: 60px;
+                        width: 60px;
+                        line-height: 60px;
+                        color: white;
+                        font-size: 24px;
+                        border: 1px solid #dddee1;
+                    }
+                    .right-list-top {
+                        font-size: 14px;
+                        font-family: 微软雅黑;
+                        position: relative;
+                        margin-left: 10px;
+                        .rem-bort{
+                            border-bottom: 1px dashed #CCCCCC;
+                            padding-bottom: 12px;
+                        }
+                        .ivu-row {
+                            line-height: 20px;
+                        }
+                        .xiangxi {
+                            color:rgba(155,155,155,1);
+                            font-size: 12px;
+                            margin-top: 10px;
+                            span {
+                                display: inline-block;
+                                padding-left: 2px;
+                                padding-right: 2px;
+                            }
+                            .deptName {
+                                display: inline-block;
+                                overflow: hidden;
+                                /*自动隐藏文字*/
+                                text-overflow: ellipsis;
+                                /*文字隐藏后添加省略号*/
+                                white-space: nowrap;
+                                /*强制不换行*/
+                                width: 11em;
+                                /*不允许出现半汉字截断*/
+                                vertical-align: middle;
+                            }
+                            .expectPlace {
+                                display: inline-block;
+                                overflow: hidden;
+                                /*自动隐藏文字*/
+                                text-overflow: ellipsis;
+                                /*文字隐藏后添加省略号*/
+                                white-space: nowrap;
+                                /*强制不换行*/
+                                /*不允许出现半汉字截断*/
+                                vertical-align: middle;
+                            }
+                            .publishState{
+                                background: #2d8cf0;
+                                font-size: 12px;
+                                color: #FFFFFF !important;
+                                }
+                            .timeout{
+                                background: #C5C5C5;
+                                color: #FFFFFF !important;
+                                font-size: 12px;
+                            }
+                        }
+                        .ersonppeop {
+                            color:rgba(74,74,74,1);
+                            font-size: 12px;
+                            position: absolute;
+                            right: 5px;
+                            top: 0px;
+                            text-align: right;
+                            .rumsource {
+                                margin-top: 17px;
+                                margin-bottom: 12px;
+                            }
+                            
+                        }
+                        .label {
+                            margin: 10px 10px 10px 0px;
+                            .styleschools,
+                            .styleuit {
+                                display: none;
+                            }
+                        }
+                        .age {
+                            font-size: 12px;
+                            // vertical-align:top;
+                            padding-right: 12px;
+                            border-right: 1px solid #cccccc;
+                            // line-height: 12px;
+                        }
+                        .job {
+                            font-size: 12px;
+                            padding-left: 12px;
+                            padding-right: 12px;
+                            border-right: 1px solid #cccccc;
+                            display: inline-block;
+                            max-width: 16em;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            white-space: nowrap;
+                        }
+                        .workLength {
+                            font-size: 12px;
+                            padding-left: 12px;
+                            border-right: 1px solid #cccccc;
+                            padding-right: 12px;
+                        }
+                        .school {
+                            font-size: 12px;
+                            border-right: 1px solid #cccccc;
+                            padding-left: 12px;
+                            padding-right: 12px;
+                        }
+                        .salary{
+                            font-size: 12px;
+                            padding-left: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

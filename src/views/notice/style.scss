@@ -1,0 +1,173 @@
+.mt25 {
+    margin-top: 25px;
+}
+
+.notice-resumup {
+    .scroll {
+        overflow: scroll;
+        height: 200px;
+    }
+    .notice_title {
+        // border-bottom: 1px solid #D3DCE4;
+        text-align: center;
+        font: 18px '微软雅黑';
+        color: #202020;
+        margin-bottom: 10px;
+    }
+    background: #fff;
+    margin-top: 25px;
+    padding: 5px;
+    position: relative;
+    .arrow-down {
+        width: 0;
+        height: 0;
+        border-right: 35px solid transparent;
+        border-top: 35px solid #2d8cf0;
+        position: relative;
+        left: -5px;
+        top: -5px;
+        cursor: pointer;
+        .ivu-icon{
+            position: absolute;
+            left: 4px;
+            top: -28px;
+            font-size: 14px;
+            color: #fff;
+        }
+    }
+    .resum-head {
+        .uptop {
+            padding: 20px 10px 20px 10px;
+            border-top: 1px solid #D3DCE4;
+            .morenselect {
+                font-size: 12px;
+                font-family: 微软雅黑;
+                padding-left: 0px;
+                color: #202020;
+                >span {
+                    padding: 0 22px 0 0;
+                    font-size: 14px;
+                    color: #606266;
+                }
+            }
+            .jobs {
+                padding-left: 0px;
+            }
+        }
+        .mobanbg {
+            background: #f8f8f8;
+            font-size: 12px;
+            font-family: 微软雅黑;
+            padding: 20px;
+            margin: 20px 0px;
+            width: 70%;
+            .morenselect {
+                padding-left: 0;
+            }
+            .cont {
+                margin-top: 15px;
+                .ivu-select-item {
+                    height: 40px;
+                    span {
+                        float: left;
+                        line-height: 30px;
+                    }
+                }
+                .ivu-select-item-selected {
+                    background: rgba(54, 61, 34, .1)
+                }
+                textarea{
+                    font-size: 12px;
+                }
+            }
+            .cont1 {
+                .jobclass {
+                    span {
+                        width: 30px;
+                    }
+                }
+            }
+            .timePlugin{
+                input{
+                    font-size: 12px;
+                    height: 32px;
+                    line-height: 1.5;
+                }
+                // .el-input__icon{
+                //     line-height: 32px;
+                // }
+                // .el-date-editor.el-input{
+                //     width: 100%
+                // }
+            }
+        }
+    }
+    // 上面是输入框样式
+    .interviewbox {
+        //  这里是面试流程的样式
+        padding-left: 10px;
+        padding-top: 30px;
+        border-top: 1px solid #D3DCE4;
+        h3 {
+            font: 16px '微软雅黑r';
+            margin-bottom: 20px;
+            span {
+                cursor: pointer;
+                color: #2d8cf0;
+                margin-left: 40px;
+                font: 14px '微软雅黑';
+            }
+        }
+        .interview {
+            position: relative;
+            .delInter {
+                margin-left: 40px;
+                color: #ed3f14;
+                font-weight: 400;
+                cursor: pointer;
+            }
+            .tree {
+                width: 500px;
+                border: 2px solid #c5c5c5;
+                overflow: scroll;
+                max-height: 400px;
+            }
+            .interviewConst {
+                margin-right: 15px;
+            }
+            .box-container {
+                display: inline-block;
+            }
+        }
+    }
+    // 下面是收件人的邮箱表展示
+    .uptop2 {
+        background-color: #f8f8f8;
+        width: 1000px;
+        padding: 20px 50px;
+        .uptop2_head {
+            width: 900px;
+            // margin: 10px auto;
+            margin-bottom: 20px;
+            span {
+                font: 14px '微软雅黑';
+                margin-right: 29px;
+                color: #202020;
+            }
+        }
+        .interContent {
+            display: inline-block;
+            .main {
+                display: inline-block;
+            }
+            .interContent-title {
+                float: left;
+            }
+        }
+    }
+}
+
+.scroll {
+    overflow: scroll;
+    height: 200px;
+}

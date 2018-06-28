@@ -1,0 +1,280 @@
+.mt25 {
+    margin-top: 25px;
+}
+
+.ml25 {
+    margin-left: 25px;
+}
+
+.resumedetails {
+    .search-wrapper-head-text {
+        display: inline-block;
+        width: 80px;
+        border-left: 2px solid #2d8cf0;
+        font-size: 16px;
+        padding-left: 8px;
+    }
+}
+
+.resumup {
+    height: 100%;
+    .arrow-down {
+        width: 0;
+        height: 0;
+        border-right: 35px solid transparent;
+        border-top: 35px solid #2d8cf0;
+        position: relative;
+        left: -5px;
+        top: -5px;
+        cursor: pointer;
+        .ivu-icon{
+            position: absolute;
+            left: 4px;
+            top: -28px;
+            font-size: 14px;
+            color: #fff;
+        }
+    }
+    background: #fff;
+    margin-top: 10px;
+    font-family: 微软雅黑;
+    padding: 5px;
+    position: relative;
+    .details-head {
+        .leftheight {
+            height: 100%;
+            overflow: visible;
+            .fl{
+              float: left;
+            }
+            .downrum {
+                line-height: 35px;
+                float: right;
+                margin-left: 15px;
+                margin-right: 5px;
+            }
+            .upbottom {
+                margin: 70px 10px 20px 10px;
+                text-align: center;
+            }
+        }
+        .details-top {
+            border-bottom: 1px solid #D3DCE4;
+            padding: 0 4px 0 4px;
+            overflow: hidden;
+            line-height: 17px;
+            p {
+                line-height: 35px;
+                font-size: 24px;
+                float: left;
+                b{
+                    font-weight: normal;
+                    display: inline-block;
+                }
+                span {
+                    font-size: 12px;
+                    background: #50E3C2;
+                    border-radius: 5px;
+                    padding: 5px;
+                    color: #fff;
+                    border-radius: 10px;
+                    font-size: 10px;
+                    margin: 0px 12px 0px 5px;
+                }
+                .JobPublis {
+                    background: #C5C5C5;
+                }
+            }
+            .personLiable {
+                float: right;
+                font-size: 12px;
+                color: #d1d1d1;
+            }
+        }
+        .detailEditing-top {    //  简历编辑页面的top部分
+            border-bottom: 1px solid #d1d1d1;
+            padding: 0 4px 0 4px;
+            overflow: hidden;
+            line-height: 35px;
+            p {
+                font-size: 18px;
+                float: left;
+                b{
+                    font-weight: normal;
+                    display: inline-block;
+                }
+                .JobPublis {
+                    background: #C5C5C5;
+                }
+            }
+            .personLiable {
+                float: right;
+                font-size: 12px;
+                color: #d1d1d1;
+            }
+        }
+        .details-cont {
+            padding: 20px 10px;
+          .wordbreak{
+            word-wrap: break-word;
+            .jobname{
+              font-family: PingFangSC-Regular;
+              color: #202020;
+            }
+            .timeout{
+              font-size: 12px;
+              background: #C5C5C5;
+              font-family: PingFangSC-Regular;
+              font-size: 12px;
+              color: #FFFFFF;
+              vertical-align: middle;
+              font-size: 12px;
+            }
+          }
+            .d-name {
+                font-size: 16px;
+                // margin-bottom: 10px;
+
+            }
+            .basic {
+                font-size: 12px;
+                margin-top: 26px;
+            }
+        }
+        .details-bottom {
+            clear: both;
+            height: 100%;
+            position: relative;
+            min-height: 500px;
+            .photoBox{
+              width: 100%;
+              height: 100%;
+              min-height: 500px;
+              position: relative;
+              // background-color: #F8F8F8;
+              background: #F8F8F8;
+              p{
+                position: absolute;
+                top: 350px;
+                left: 50%;
+                transform: translate(-50%);
+                font-family: PingFangSC-Regular;
+                font-size: 14px;
+                color: #A0A0A0;
+              }
+              .photoBox_img{
+                width: 250px;
+                height: 200px;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%)
+              }
+            }
+            iframe {
+                 ::-webkit-scrollbar {
+                    width: 5px;
+                }
+            }
+            .resume {
+                width: 100%;
+            }
+            .pdf {
+                width: 100%;
+                min-height: 600px;
+            }
+        }
+        .personLiable1{
+          float: left;
+          line-height: 40px;
+          font-size: 12px;
+          color: #d1d1d1;
+        }
+        .personLiable {
+            float: left;
+            line-height: 40px;
+            font-size: 12px;
+            color: #d1d1d1;
+            span{
+                margin-right: 15px;
+            }
+        }
+        .rightbox {
+            .rightone {
+                border-radius: 6px;
+                background: #f8f8f8;
+                padding: 10px 15px;
+                .operation {
+                    .operline {
+                        line-height: 21px;
+                    }
+                    .opertitle {
+                        font-size: 14px;
+                        line-height: 25px;
+                    }
+                    .demonstration {
+                        font-size: 14px;
+                        float: left;
+                        margin-right: 5px;
+                    }
+                    .oprtpeop {
+                        font-size: 12px;
+                        color: #9f9f9f;
+                        line-height: 25px;
+                        clear: both;
+                    }
+                }
+                .righttitle {
+                    text-align: center;
+                }
+                .recommender {
+                    margin-left: 20px;
+                    margin-top: 15px;
+                    .demonstration {
+                        display: block;
+                        width: 80px;
+                        float: left;
+                    }
+                }
+                .rithtlise {
+                    padding: 10px 15px;
+                    .yiruku {
+                        margin-left: 5%;
+                        .yiruspan {
+                            color: red;
+                        }
+                    }
+                    .randompeop {
+                        font-size: 12px;
+                        color: #9f9f9f;
+                        margin-left: 17%;
+                    }
+                    .timeyes {
+                        width: 30%;
+                    }
+                    .beizhu {
+                        width: 70%;
+                    }
+                    .shugang {
+                        border-right: 1px solid #d1d1d1;
+                        font-size: 12px;
+                        line-height: 15px;
+                        text-align: center;
+                    }
+                    .shugang2 {
+                        margin-left: 10px;
+                        border-right: none;
+                    }
+                    .username,
+                    .sex {
+                        font-size: 16px;
+                    }
+                    .sex {
+                        color: #ffa8db;
+                    }
+                }
+            }
+        }
+    }
+}
+

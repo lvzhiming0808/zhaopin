@@ -1,0 +1,36 @@
+
+// 表单
+export const HANDEL_SEARCHOBJ = 'HANDEL_SEARCHOBJ'
+// keyword
+export const HANDEL_KEYWORD = 'HANDEL_KEYWORD'
+// 最小年龄
+export const HANDEL_AGEMIN = 'HANDEL_AGEMIN'
+// 最大年龄
+export const HANDEL_AGEMAX = 'HANDEL_AGEMAX'
+// 性别
+export const HANDEL_SEX = 'HANDEL_SEX'
+// 期望地点
+export const HANDEL_EXPECTPLACE = 'HANDEL_EXPECTPLACE'
+// 学历
+export const HANDEL_DEGREE = 'HANDEL_DEGREE'
+// 求职状态
+export const HANDEL_CURRENTSTATE = 'HANDEL_CURRENTSTATE'
+// 更新时间
+export const HANDEL_UPDATEDATE = 'HANDEL_UPDATEDATE'
+// 居住地
+export const HANDEL_RESIDEADDRESS = 'HANDEL_RESIDEADDRESS'
+// 工作年限最小
+export const HANDEL_WORKLENGTHMIN = 'HANDEL_WORKLENGTHMIN'
+// 工作年限最大
+export const HANDEL_WORKLENGTHMAX = 'HANDEL_WORKLENGTHMAX'
+// 薪资最小
+export const HANDEL_SALARYMIN = 'HANDEL_SALARYMIN'
+// 薪资最大
+export const HANDEL_SALARYMAX = 'HANDEL_SALARYMAX'
+// 当前页
+export const CHANGE_CURRENTPAGE = 'CHANGE_CURRENTPAGE'
+// 默认选中
+export const HANDEL_ACTIVENAME = 'HANDEL_ACTIVENAME'
+// 渠道
+export const HANDEL_PLATID = 'HANDEL_PLATID'
+

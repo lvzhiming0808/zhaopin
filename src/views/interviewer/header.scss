@@ -1,0 +1,115 @@
+// .header-right{
+//   .unread{
+//     .textcolor{
+//       font-size: 12px;
+//       position: relative;
+//       cursor:pointer;
+//     }
+//     .unreabox{
+//       height: 500px;
+//       overflow: auto;
+//       overflow-x: hidden;
+//       .footer{
+//         position: absolute;
+//         bottom: -10px;
+//         background: #fff;
+//         right: 18px;
+//         width: 312px;
+//         text-align: center;
+//         z-index: 2;
+//       }
+//     }
+//     .unreadtop{
+//       background-color: #f8f8f8;
+//       overflow: hidden;
+//       padding: 5px;
+//       .unreadetopleft{
+//         float: left;
+//       }
+//       .unreadetopright{
+//         float: right;
+//       }
+//     }
+//     .unreadbottom{
+//       padding: 5px;
+//       max-height: 200px;
+//       span{
+//         font-size: 12px;
+//         color: #333;
+//       }
+//       .untime{
+//         color: #adadad;
+//         font-size: 12px;
+//       }
+//       .read{
+//         color: #333;
+//         font-size: 12px;
+//       }
+//       .nuwrem{
+//         clear: both;
+//         font-size: 12px;
+//         margin-left: 18px;
+//         text-align: left;
+//         span{
+//           color: #2d8cf0;
+//           cursor:pointer;
+//         }
+//         a{
+//           text-decoration: none;
+//         }
+//       }
+//       .unreadbottomleft{
+//         float: left;
+//       }
+//       .unreadbottomright{
+//         float: right;
+//       }
+//     }
+//   }
+// }
+// .header-wragger {
+//   width: 100%;
+//   display: flex;
+// }
+// .logo {
+//   vertical-align: middle;
+//   height: 30px;
+//   line-height: 30px;
+//   margin-top: 10px;
+//   margin-left: 20px;
+// }
+// .heatvertical{
+//   color: #d1d1d1;
+//   font-size: 12px;
+//   padding-left: 5px;
+// }
+// .bell{
+//   color: #d1d1d1;
+//   font-size: 20px;
+//   vertical-align: middle;
+// }
+// .header-wrapper{
+//   min-height: 50px;
+//   // background-color:#d1d1d1 ;
+//   .header-right{
+//     float: right;
+//     margin-right: 50px;
+//     width: 70%;
+//     text-align: right;
+    
+//     .headuser{
+//       border-radius:50%;
+//       height: 40px;
+//       margin: 10px;
+//       vertical-align: middle;
+//     }
+//     .husername{
+//       font-family: 微软雅黑;
+//       font-size: 12px;
+//     }
+//     .hudown{
+//       color: #d1d1d1;
+//       margin-left: 5px;
+//     }
+//   }
+// }

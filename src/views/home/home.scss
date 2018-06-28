@@ -1,0 +1,166 @@
+.home-wrapper{
+    padding: 20px 0px 0 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    .ivu-spin-main{
+        top:200px !important;
+      }
+     .home-wrapper-head{
+        overflow: hidden;
+        height: 40px;
+        .home-wrapper-head-text{
+            display: inline-block;
+            width: 80px;
+            height: 14px;
+            border-left: 2px solid rgb(45, 140, 240);
+            font-size: 16px;
+            padding-left: 8px;
+            line-height: 14px;
+        }
+      .toggle-week{
+          float:right;
+          .butbg{
+              background: rgb(45, 140, 240);
+              color:#fff;
+          }
+      }
+  }
+    .data-charts{
+        .ivu-row{
+            margin-left: -2.5px; 
+            margin-right: -2.5px;
+            .ivu-col{
+                margin-bottom: 10px; 
+                padding-left: 5px; 
+                padding-right: 5px;
+                .ivu-card-body{
+                    padding: 0px;
+                    .infor-card-icon-con{
+                        color: white; 
+                        padding-left: 5px; 
+                        padding-right: 5px;
+                        .ivu-icon{
+                            font-size: 40px;
+                        }
+                    }
+                }
+            }
+            .ivu-col2{
+                padding-left: 5px; 
+                padding-right: 5px;
+                .text-p{
+                    text-align: center; 
+                    font-size: 30px; 
+                    font-weight: 700;
+                }
+            }
+        }
+      }
+    }
+    .date-charts{
+        .ceear_occupy{
+            text-align: center
+        }
+        .date-head-text{
+            display: inline-block;
+            width: 80px;
+            height: 14px;
+            border-left: 2px solid  rgb(45, 140, 240);
+            font-size: 16px;
+            padding-left: 8px;
+            margin-bottom:20px;
+            line-height: 14px;
+        }
+        .date-main{
+          width:100%;
+          min-height: 450px;
+          background-color: #fff;
+          .choice{
+            margin: 15px;
+            .checkdate{
+              float: left;
+            }
+            .godate{
+              float: right;
+            }
+          }
+          .clear{
+              position: relative;
+            .__vev_calendar-wrapper .events-wrapper .date{
+              font-size: 14px;
+              background: none;
+              font-weight: normal;
+              color: rgb(45, 140, 240);
+            }
+            .events-wrapper{
+              background:none !important;
+             padding-right: 30px !important;
+            }
+          }
+            .date-calender{
+              width:596px;
+              height:388px;
+              float: left;
+            }
+            .date-progress{
+              height:388px;
+              float:left;
+            }
+        }
+    }
+    .dates{
+        .date_num_hover:hover{
+            &::after{
+            content: '';
+            cursor: pointer;
+            width: 36px;
+            height: 36px;
+            border: 1px solid #cccccc;
+            border-radius: 50%;
+            position: absolute;
+            left: 50%;
+            top:50%;
+            margin-left: -18px;
+            margin-top: -19px;
+            }
+        }
+        .date_num_active::after{
+            content: attr(data-attr);
+            cursor: pointer;
+            width: 36px;
+            height: 36px;
+            border: 1px solid #2d8cf0;
+            border-radius: 50%;
+            position: absolute;
+            left: 50%;
+            top:50%;
+            margin-left: -18px;
+            margin-top: -19px;
+            color: white;
+            background-color: rgb(45, 140, 240);
+            line-height: 36px;
+        }
+        .item:hover p{
+            cursor: pointer;
+        }
+
+    }
+.__vev_calendar-wrapper{
+  max-width: 100% !important;
+}
+.__vev_calendar-wrapper .events-wrapper{
+  height: 380px !important;
+  padding: 15px 0px 40px 20px !important;
+}
+.__vev_calendar-wrapper .cal-wrapper {
+    padding: 0px !important;
+  }
+@media screen and (min-width: 768px){
+  .__vev_calendar-wrapper{
+    max-width: 100% !important;
+  }
+  .__vev_calendar-wrapper .cal-wrapper {
+    padding: 0px;
+  }
+}

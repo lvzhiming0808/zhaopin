@@ -1,0 +1,490 @@
+.PositionDetails-wrapper{
+    padding: 20px 0px 0 0px;
+    box-sizing: border-box;
+   .PositionDetails-wrapper-main{
+       background: #fff;
+       position: relative;
+       min-height: 700px;
+       display: flex;
+       padding: 15px;
+       -moz-box-sizing: border-box;
+       .sanjiao{
+           position: absolute;
+           left: 0px;
+           top: 40px;
+           .newcreate-sanjiao{
+               width: 0;
+               height: 0;
+               border-top: 40px solid #2d8cf0;
+               border-right: 40px solid transparent;
+               position: relative;
+           }
+           .ivu-icon{
+            position: absolute;
+            left: 4px;
+            top: -33px;
+            font-size: 14px;
+            color: #fff;
+        }
+       }
+       .PositionDetails-wrapper-main-left{
+           width: 75%;
+           height: 100%;
+        //    overflow-y: scroll;
+           box-shadow: 7px 0px 10px -6px rgba(0,0,0,.1);
+           h2{
+               font-size: 24px;
+               color: #202020;
+               font-weight: normal;
+               height: 30px;
+               line-height: 30px;
+               .PositionDetails-work-status{
+                   display: inline-block;
+                   font-size: 12px;
+                   color: #FFFFFF;
+                   width: 50px;
+                   height: 20px;
+                   border-radius: 17px;
+                   background: #A0A0A0;
+                   text-align: center;
+                   vertical-align: middle;
+                   line-height: 20px;
+                   margin-left: 12px;
+               }
+               .disable1{
+                   color: #fff;
+                   background: #4DD1B2;
+               }
+               .disable3{
+                background: #8e3b65;
+               }
+               .disable2{
+                color: #fff;
+                background:  #a3cbfa;
+               }
+               
+           }
+           .PositionDetails-main-left-title{
+               font-size: 16px;
+               color: #9B9B9B;
+               line-height: 50px;
+               height: 50px;
+               border-bottom: 1px solid #D3DCE4;
+               margin-right: 15px;
+               .PositionDetails-main-left-title-content{
+                   float: left;
+                   span{
+                       color: #a0a0a0;
+                       font-size: 14px;
+                       margin:0px 0.5em;
+                   }
+                   span:nth-of-type(1){
+                       margin-left: 0px;
+                   }
+               }
+           }
+           .PositionDetails-main-left-list{
+               .PositionDetails-list-one{
+                   margin: 20px 0;
+                   .Positioncontent{
+                       font-size: 14px;
+                       line-height: 30px;
+                       width: 95%;
+                       word-break: break-all;
+                   }
+                   h3{
+                       height: 40px;
+                       line-height: 40px;
+                       font-size: 16px;
+                       margin-bottom: 10px;
+                       color: #202020;
+                       font-weight: normal;
+                       span{
+                           display: block;
+                           width: 22px;
+                           height: 3px;
+                           background: #2d8cf0;
+                       }
+                   }
+                   ul{
+                       padding-left: 15px;
+                       box-sizing: border-box;
+                       list-style: none;
+                       li{
+                           font-size: 14px;
+                           color: #202020;
+                           line-height: 30px;
+                        //    list-style: decimal;
+                       }
+                   }
+               }
+               .all_publishChannel{
+                   height: 80px;
+                   h3{
+                       position: relative;
+                       .publish_item{
+                        position: absolute;
+                        left: 80px;
+                        top: 2px;
+                       }
+                       .item_tips{
+                        display: block;
+                        width: 24px;
+                        height: 24px;
+                        text-align: center;
+                        line-height: 20px;
+                        color: #2d8cf0;
+                    }
+                   }
+                   .publishChannelsBody{
+                    float: left;
+                    margin-right: 20px;
+                    margin-top: 10px;
+                    display: flex;
+                    line-height: 40px;
+                    height: 40px;
+                    cursor: pointer;
+                    width: 90px;
+                    b{
+                        margin-left: 6px;
+                        font-weight: normal;
+                        font-size: 12px;
+                        color: #2d8cf0;
+                    }
+                    .noClick1{
+                        color: #c5c5c5;
+                        cursor: not-allowed;
+                        }
+                   }
+                   .noClick{
+                    color: #c5c5c5;
+                    cursor: not-allowed;
+                    }
+                   .publishChannelsBody:hover{
+                    background: pink;
+                   }
+                   .publishChannels{
+                       width: 30px;
+                       height: 30px;
+                       display: block;
+                       border-radius: 50%;
+                       margin-top: 5px;
+                       text-align: center;
+                       line-height: 30px;
+                       margin-right: 8px;
+                   }
+                   .publishChannel_51,.publishChannel_zhi{
+                       background: #ffcc33;
+                       color: #0000ff;
+                   }
+                   .publishChannel_Boss{
+                    display: inline-block;
+                    position: relative;
+                    background: #2d8cf0;
+                    color: #fff;
+                    i{
+                        position: absolute;
+                        left: -2px;
+                        top: 0px;
+                        // transform: translateX(-50%);
+                        display: inline-block;
+                        font-style: normal;
+                        width: 32px;
+                        height: 32px;
+                        transform: scale(.8);
+                    }
+                   }
+                   .publishChannel_lie,.publishChannel_58{
+                    background: #ff9900;
+                    color: #fff;
+                   }
+                   .publishChannel_lagou{
+                    display: inline-block;
+                    position: relative;
+                    background: #00cc66;
+                    color: #fff;
+                    i{
+                        position: absolute;
+                        left: -30%;
+                        top: -10%;
+                        // transform: translateX(-50%);
+                        display: inline-block;
+                        font-style: normal;
+                        width: 32px;
+                        height: 32px;
+                        transform: scale(.7);
+                    }
+                   }
+               }
+               .publishChannelCommet{
+                   font-size: 12px;
+                   color: red;
+                   height: 20px;
+                   line-height: 20px;
+                   span{
+                       margin-right: 10px;
+                   }
+               }
+               .PositionDetails-Job-highlights{
+                   .PositionDetails-Job-highlights-list{
+                       overflow: hidden;
+                       margin-top: 15px;
+                       padding-left: 0px;
+                       li{
+                        //    width: 60px;
+                           padding: 0px 10px;
+                           box-sizing: border-box;
+                           height: 28px;
+                           border: 1px solid #2d8cf0;
+                           border-radius: 3px;
+                           float: left;
+                           font-size: 12px;
+                           color: #2d8cf0;
+                           text-align: center;
+                           line-height: 28px;
+                           margin-right: 15px;
+                       }
+                   }
+               }
+               .PositionDetails-work-place{
+                   .PositionDetails-work-place-content{
+                        font-size: 14px;
+                        color: #202020;
+                        line-height: 30px;
+                   }
+               }
+           }
+       }
+
+
+
+       .PositionDetails-wrapper-main-right{
+           width: 25%;
+           height: 100%;
+           padding-left: 20px;
+           box-sizing: border-box;
+           .PositionDetails-number-applicants{
+               padding: 12px 15px 12px 23px;
+               width: 220px;
+               height: 100px;
+               background: #f8f8f8;
+               box-sizing: border-box;
+               margin-bottom: 18px;
+               border-radius: 6px;
+               .el-progress-circle{
+                height: 76px !important;
+                width: 76px !important;
+                svg{
+                    path:nth-of-type(2){
+                     stroke:#2d8cf0;
+                    }
+                }
+            }
+               .PositionDetails-number-peoples{
+                   float: right;
+                   font-size: 14px;
+                   color: #202020;
+                   line-height: 25px;
+                   margin: 0px 10px 15px 5px;
+                   p{
+                       font-size: 12px;
+                   }
+               }
+           }
+           .PositionDetails-main-right-bottom{
+               width: 220px;
+               background: #f8f8f8;
+               padding: 16px 0;
+               box-sizing: border-box;
+               border-radius: 6px;
+               .PositionDetails-needDealt{
+                   margin-bottom: 30px;
+                   h4{
+                       height: 44px;
+                       position: relative;
+                       .needDealt-text{
+                           display: inline-block;
+                           border-left: 2px solid #2d8cf0;
+                           padding-left: 15px;
+                           box-sizing: border-box;
+                           font-size: 16px;
+                           color: #202020;
+                           font-weight: normal;
+                           margin-top: 12px;
+
+                       }
+                       .needDealt-line{
+                           display: inline-block;
+                           width: 160px;
+                           height: 2px;
+                           background: #D3DCE4;
+                           position: absolute;
+                           top: 20px;
+                           right: 0px;
+                       }
+                   }
+                   .needDealt-content{
+                       display: flex;
+                       flex-wrap: wrap;
+                       padding-left: 20px;
+                       box-sizing: border-box;
+                       span{
+                           display: block;
+                           width: 50%;
+                           font-size: 14px;
+                           color: #202020;
+                           line-height: 32px;
+                           height: 32px;
+                           cursor: default;
+                           i{
+                               font-style: normal;
+                               color: #2d8cf0;
+                           }
+                           &:hover{
+                            // cursor:pointer;
+                           }
+                           a{
+                            color: #202020;
+                            text-decoration: none;
+                           }
+                           img{
+                               cursor: default;
+                           }
+                       }
+                   }
+                   .interview-flow{ //  面试流程的数据显示
+                    display: flex;
+                    .interview-number{
+                        width: 20%;
+                    }
+                    .interview-name{
+                        width: 80%;
+                        overflow: hidden;
+                        text-overflow:ellipsis;
+                        white-space: nowrap;
+                    }
+                   }
+                   .interviewConst{
+                       span{
+                           color: #c5c5c5;
+                       }
+                   }
+               }
+               .PositionDetails-operation{
+                   h4{
+                       position: relative;
+                       .tips{
+                        position: absolute;
+                        left: 0px;
+                        top: -3px;
+                       }
+                       .item_tips{
+                           
+                           display: block;
+                           width: 20px;
+                           height: 20px;
+                           border-radius: 50%;
+                          
+                           text-align: center;
+                           line-height: 20px;
+                           color: #2d8cf0;
+                           font-size: 18px;
+                       }
+                       .ivu-tooltip-popper{
+                           left: 0px !important;
+                       }
+                   }
+                   .operation-text{
+                       .spanWrapper{
+                        color: #2d8cf0;
+                        font-size: 14px;
+                        font-weight: normal;
+                        cursor: pointer;
+                       }
+                       .disableOption{
+                        color: #c5c5c5;
+                        cursor: not-allowed;
+                        }
+                   }
+               }
+           }
+       }
+       .allMessage{
+        .jobName{
+            margin: 0 auto;
+            height: 30px;
+            text-align: center;
+            line-height: 30px;
+            width:100%;
+        }
+        .JsonSendSucess{
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            margin-right: 5px;
+            line-height: 15px;
+            background: url('../../assets/dialog_Shape.png');
+            background-size: 16px;
+        }
+        .JsonsendFail{
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            margin-right: 5px;
+            line-height: 15px;
+            background: url('../../assets/fail.png');
+            background-size: 16px;
+        }
+        .Jsonsending{
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            margin-right: 5px;
+            line-height: 15px;
+            background: url('../../assets/sending.png');
+            background-size: 16px;
+        }
+    }
+   }
+  .punlishNocontent{
+      height: auto;
+
+  }
+}
+.models{
+    width: 340px !important;
+    height: auto;
+    .dealtWith{
+        height: 80px;
+        display: flex;
+        flex-wrap: wrap;
+        .eachRouter{
+            width:50%;
+            a{
+                 color: #606266;
+                
+            }
+            span{
+                height: 30px;
+                line-height: 30px;
+                font-size: 16px;
+                cursor: pointer;
+                font-weight: bold;
+                i{
+                    font-style: normal;
+                    margin-left: 20px;
+                   
+                }
+                
+            }
+            .okClick{
+                color: #2d8cf0 !important;
+            }
+            
+        }
+    }
+    p{
+        color: red;
+        font-size: 12px;
+    }
+}

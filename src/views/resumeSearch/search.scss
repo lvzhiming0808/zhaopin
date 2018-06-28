@@ -1,0 +1,233 @@
+.search-wrapper{
+  padding-top: 20px;
+  box-sizing: border-box;
+  font-family: 微软雅黑;
+  position: relative;
+    .ivu-spin-main{
+      top:200px !important;
+  }
+  .text-overflow{
+    .ivu-cascader .ivu-input{
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+  .labelnone{
+    .ivu-form-item-content{
+      margin-left: 0px !important; 
+    }
+  }
+  .search-wrapper-head{
+    overflow: hidden;
+    .search-wrapper-head-text{
+      display: inline-block;
+      width: 80px;
+      height: 14px;
+      border-left: 2px solid #2d8cf0;
+      font-size: 16px;
+      padding-left: 8px;
+      line-height: 14px;
+    }
+  }
+  .search-cont{
+    background: #FFF;
+  }
+  .search-mian{
+    padding: 20px 0px 30px 0px;
+    .zhi{
+      padding: 5px;
+    }
+  }
+  .search-bottom{
+    margin: 0 auto;
+    overflow: hidden;
+    width: 95%;
+    .right-cont{
+      background: #F0F0F0;
+      padding: 5px;
+    }
+    .resumeSearchMenutotalCount{
+      span{
+        color: #2d8cf0;
+      }
+    }
+    .fl{
+      float: right;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  }
+  .right-cont{
+    .right-cont-top{
+      cursor: pointer;
+    }
+    .card-top{
+      padding-bottom: 14px;
+    }
+    .card-bot{
+      padding: 14px 0;
+      .all_content{
+        span{
+          display: inline-block;
+          color: #000000;
+          height: 24px;
+          line-height: 24px;
+        }
+        .all_content_tags{
+          margin-right: 20px;
+        }
+        .first-name{
+          width:60px;
+          color: #4A4A4A;
+        }
+        .work-content{
+          margin-left: 60px;
+        }
+      }
+    }
+    .hide{
+      transition: height 2s;
+      height:0;
+      display: none;
+    }
+    .show{
+      border-top: 1px dashed #ccc;
+      height: auto;
+    }
+    .seeresume{
+      position: absolute;
+      right: 20px;
+      top: 30px;
+    }
+    .mt{
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .rightfanye{
+      float: right;
+      margin-top: 20px;
+    }
+    .check{
+      line-height: 65px;
+    }
+    .ineup{
+      position: absolute;
+      background: #333333;
+      background:rgba(0,0,0,0.5);
+      border-radius: 50%;
+      height: 60px;
+      width: 60px;
+      line-height: 20px;
+      font-size: 12px;
+      p{
+        line-height: 60px;
+        text-align: center;
+        color: white;
+      }
+    }
+    .header-logo{
+      position: relative;
+      width: 100%;
+      height: 100%;
+    }
+    .sex{
+      color: #90ccf0;
+      padding-right: 12px;
+      font-size: 16px;
+      position: absolute;
+      left: 48px;
+      top: 8px;
+    }
+    .right-head{
+      border-radius: 50%;
+      height: 60px;
+      width: 60px;
+      border: 1px solid #dddee1;
+    }
+    .right-list-top{
+      font-size: 12px;
+      font-family: 微软雅黑;
+      .mt{
+        .titles {
+          color: #4A4A4A;
+          font-size: 12px;
+        }
+      }
+      .xiangxi{
+        color: rgba(155,155,155,1);
+        font-size: 12px;
+        letter-spacing:2px;
+        .expectAddress{
+          padding-right: 12px;
+          border-right: 1px solid #c1c1c1;
+        }
+        .updateDate{
+          padding-left: 10px;
+        }
+      }
+      .label{
+        margin: 10px;
+      }
+      .username{
+        color: #000;
+        font-size: 16px;
+        font-weight: bold;
+      }
+      .job{
+        line-height: 12px;
+        margin-left: 14px;
+      }
+      .university{
+        padding-right: 12px;
+        font-size: 12px;
+        vertical-align: top;
+        padding-right: 12px;
+        border-right: 1px solid #c1c1c1;
+        display: inline-block;
+        max-width: 20em;
+        overflow: hidden;
+        color: #202020;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        em {
+          color: #E93C3C;
+          font-style:normal;
+        }
+      }
+      .age{
+        border-right: 1px solid #c1c1c1;
+        color: #202020;
+        padding: 0 12px;
+      }
+      .major{
+        border-right: 1px solid #c1c1c1;
+        color: #202020;
+        padding: 0 12px;
+      }
+      .degree{
+        color: #202020;
+        padding: 0 12px;
+      }
+    }
+  }
+  .loadingMark{
+    width: 100%;
+    height: 100%;
+    background: black;
+    position: absolute;
+    z-index: 10000;
+    left: 0;
+    top: 0;
+    .loadBox{
+      width: 100px;
+      height: 100px;
+      margin: 40% auto;
+    }
+  }
+}
+.scrollNo{
+ height: 100%;
+ overflow: hidden;
+}
+

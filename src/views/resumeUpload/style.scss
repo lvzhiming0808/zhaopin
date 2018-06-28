@@ -1,0 +1,74 @@
+.mt25{
+  margin-top: 25px;
+}
+.mt15{
+  margin-top: 15px;
+}
+.resumup{
+  .resum-head{
+    .update{
+      width: 100%;
+    }
+  }
+  background: #fff;
+  margin-top: 30px;
+  padding: 5px;
+  position: relative;
+  .resum-head{
+    .uptop{
+      padding: 20px 10px 20px 10px;
+    }
+    .bumen{
+      float: left;
+    }
+    .morenselect{
+      span{
+        font-size: 12px;
+        font-family: 微软雅黑;
+      }
+      .deot_con{
+        color:#fff;
+        position: absolute;
+        z-index: 1000;
+        right: 5px;
+        top: 6px;
+        font-size: 18px;
+      }
+    }
+    .upcont{
+      background: #f8f8f8;
+      border: 1px dashed #c8c8c8;
+      margin: 60px 10px 20px 10px;
+      clear: both;
+      .upload-demo{
+        .ivu-upload-list{
+          width: 30%;
+          margin: 0 auto;
+          .ivu-upload-list-file{
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+          }
+        }
+      }
+      .upleft{
+        text-align: center;
+        padding: 10% 0px;
+      }
+      .upname{
+        padding: 20px;
+        font-family: 微软雅黑;
+        text-align: center;
+      }
+    }
+    .upbottom{
+      text-align: center;
+    }
+  }
+  .manualbox{
+    font-family: 微软雅黑;
+    font-size: 12px;
+    padding: 5px 20px;
+    width: 100%;
+  }
+}

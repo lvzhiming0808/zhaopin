@@ -1,0 +1,444 @@
+
+.zpmain-wrapper {
+  width: 100%;
+  min-width: 998px;
+}
+
+.header-wrapper{
+  height: 50px;
+  .logo {
+    vertical-align: middle;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+}
+
+
+  .header1{
+    height: 50px;
+    span{
+      line-height: 50px;
+      padding-left: 9px;
+      border-left: 2px solid #2d8cf0;
+    }
+  }
+  .handler{
+    font-family: PingFangSC-Regular;
+font-size: 12px;
+color: #A0A0A0;
+  }
+  .mt25 {
+    margin-top: 25px;
+}
+
+.ml25 {
+    margin-left: 25px;
+}
+.resumedetails {
+    .search-wrapper-head-text {
+        display: inline-block;
+        width: 80px;
+        border-left: 2px solid #2d8cf0;
+        font-size: 16px;
+        padding-left: 8px;
+    }
+
+}
+
+.resumup {
+    .arrow-down {
+        width: 0;
+        height: 0;
+        border-right: 35px solid transparent;
+        border-top: 35px solid #2d8cf0 !important;
+        position: relative;
+        left: -5px;
+        top: -5px;
+        cursor: pointer;
+        a{
+            position: absolute;
+            left: 4px;
+            top: -28px;
+            font-size: 14px;
+            color: #fff;
+        }
+    }
+    height: 100%;
+
+
+    .interviewRecordList{
+        background-color: #f8f8f8;
+        width: 70%;
+        min-width: 920px;
+        padding: 10px 20px;
+        .interscore{
+            width: 80%;
+            display: inline-block;
+        }
+        .feedbackTime{
+            float: right;
+        }
+        li{
+            border-bottom: 1px solid white;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            .interview_del{
+                span{
+                    float: right;
+                    i{
+                        font-style: normal;
+                        margin-right: 20px;
+                        color: #2d8cf0;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+    background: #fff;
+    margin-top: 10px;
+    font-family: 微软雅黑;
+    padding: 5px;
+    position: relative;
+    .details-head {
+      .detail{
+        padding-left: 20px;
+        margin-top: 20px;
+      }
+      .details-bottom{
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+        .header{
+          // width: 98%;
+          padding-left: 20px;
+          padding-right: 20px;
+          p{
+            // padding-left: 20px;
+            height: 58px;
+            line-height: 65px;
+            border-bottom: 1px solid #D3DCE4;
+            font-family: PingFangSC-Regular;
+           font-size: 24px;
+           color: #202020;
+           span{
+             float: right;
+             color: #C5C5C5;
+             font-size: 12px;
+             line-height: 65px;
+           }
+         }
+        }
+        .leftheight {
+            height: 100%;
+            // padding-left: 20px;
+            overflow: visible;
+            // .fl{
+            //   float: left;
+            // }
+            .downrum {
+                line-height: 35px;
+                float: right;
+                margin-left: 15px;
+                margin-right: 5px;
+            }
+            .upbottom {
+                margin: 70px 10px 20px 10px;
+                text-align: center;
+            }
+        }
+        .details-top111 {
+            border-bottom: 1px solid #d1d1d1;
+            color: red;
+            overflow: hidden;
+            height: 58px;
+            line-height: 58px;
+            p {
+                line-height: 58px;
+                font-size: 24px;
+                float: left;
+                padding-left: 9px;
+                b{
+                    font-weight: normal;
+                    display: inline-block;
+                }
+
+                .JobPublis {
+                    background: #C5C5C5;
+                }
+            }
+            .personLiable {
+                float: right;
+                line-height: 50px;
+                font-size: 12px;
+                color: #d1d1d1;
+            }
+        }
+        .detailEditing-top {    //  简历编辑页面的top部分
+            border-bottom: 1px solid #d1d1d1;
+            padding: 0 4px 0 4px;
+            overflow: hidden;
+            // height: 30px;
+            line-height: 35px;
+            p {
+                // line-height: 35px;
+                font-size: 18px;
+                float: left;
+                b{
+                    font-weight: normal;
+                    display: inline-block;
+                }
+ 
+                .JobPublis {
+                    background: #C5C5C5;
+                }
+            }
+            .personLiable {
+                float: right;
+                // line-height: 40px;
+                font-size: 12px;
+                color: #d1d1d1;
+            }
+        }
+        .details-cont {
+          .mb12{
+            margin-bottom: 20px;
+          }
+            // border-bottom: 1px dashed #d1d1d1;
+          .wordbreak{
+            word-wrap: break-word;
+            .work{
+              padding-left: 5px;
+              padding-right: 5px;
+            }
+            .jobname{
+              font-family: PingFangSC-Regular;
+              color: #202020;
+            }
+            .timeout{
+              font-size: 12px;
+              background: #C5C5C5;
+              font-family: PingFangSC-Regular;
+              font-size: 12px;
+              color: #FFFFFF;
+              vertical-align: middle;
+              font-size: 12px;
+            }
+
+          }
+            .detailediting {
+                float: right;
+                color: #2d8cf0;
+            }
+            .d-name {
+                font-size: 16px;
+                // margin-bottom: 10px;
+
+            }
+            .basic {
+                font-size: 14px;
+                line-height: 30px;
+  
+            }
+        }
+        .details-bottom1 {
+          padding-left: 20px;
+          padding-right: 20px;
+
+          .interviewjob{
+            font-family: PingFangSC-Regular;
+            font-size: 18px;
+            color: #202020;
+            height: 30px;
+            .reject{
+              background: #FFC187;
+            }
+            .reject::before{
+              border-right: 10px solid #FFC187;
+            }
+          }
+        .handler{
+          font-family: PingFangSC-Regular;
+font-size: 12px;
+color: #A0A0A0;
+        }
+
+            clear: both;
+            padding: 10px;
+            height: 100%;
+            width: 100%;
+            position: relative;
+            min-height: 500px;
+            .operation {
+              padding-top: 12px;
+              // padding-bottom: 12px;
+              .operline {
+                  line-height: 21px;
+              }
+              .opertitle {
+                  font-size: 14px;
+                  line-height: 25px;
+              }
+              .demonstration {
+                  font-size: 14px;
+                  float: left;
+                  margin-right: 5px;
+              }
+              .oprtpeop {
+                  font-size: 12px;
+                  color: #9f9f9f;
+                  line-height: 25px;
+                  clear: both;
+              }
+          }
+
+            .photoBox{
+              width: 100%;
+              height: 100%;
+              min-height: 500px;
+              position: relative;
+              // background-color: #F8F8F8;
+              background: #F8F8F8;
+              p{
+                position: absolute;
+                top: 350px;
+                left: 50%;
+                transform: translate(-50%);
+                font-family: PingFangSC-Regular;
+                font-size: 14px;
+                color: #A0A0A0;
+              }
+              .photoBox_img{
+                width: 250px;
+                height: 200px;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%)
+              }
+            }
+            iframe {
+                 ::-webkit-scrollbar {
+                    width: 5px;
+                }
+            }
+            .resume {
+                width: 100%;
+            }
+            .pdf {
+                width: 100%;
+                min-height: 600px;
+            }
+        }
+        .personLiable1{
+          float: left;
+          line-height: 50px;
+          font-size: 12px;
+          height: 50px;
+          color: #d1d1d1;
+        }
+        .personLiable {
+            float: right;
+            line-height: 40px;
+            font-size: 12px;
+            color: #d1d1d1;
+            span{
+                margin-right: 15px;
+            }
+        }
+        .rightbox {
+          min-height: 200px;
+          background-color: #f8f8f8;
+            .rightone {
+                border-radius: 6px;
+                background: #f8f8f8;
+                padding: 10px 15px;
+                .righttitle {
+                    text-align: center;
+                    // 简历绑定职位
+                    .relevance{
+                
+                    }
+                }
+                .recommender {
+                    // margin-left: 20px;
+                    // margin-top: 15px;
+                    padding: 20px 0px;
+                    width: 347px;
+                    margin: 0px auto;
+                    .demonstration {
+                        display: block;
+                        width: 80px;
+                        float: left;
+                    }
+                }
+
+                .rithtlise {
+                    padding: 10px 15px;
+                    .yiruku {
+                        margin-left: 5%;
+                        .yiruspan {
+                            color: red;
+                        }
+                    }
+                    .randompeop {
+                        font-size: 12px;
+                        color: #9f9f9f;
+                        margin-left: 17%;
+                    }
+                    .timeyes {
+                        width: 30%;
+                    }
+                    .beizhu {
+                        width: 70%;
+                    }
+         
+                    .shugang {
+                        border-right: 1px solid #d1d1d1;
+                        font-size: 12px;
+                        line-height: 15px;
+                        text-align: center;
+                    }
+                    .shugang2 {
+                        margin-left: 10px;
+                        border-right: none;
+                    }
+                    .username,
+                    .sex {
+                        font-size: 16px;
+                    }
+                    .sex {
+                        color: #ffa8db;
+                    }
+         
+                }
+                .righttwo {
+                    .operation {
+                      padding-top: 12px;
+                      padding-bottom: 12px;
+                        .operline {
+                            line-height: 21px;
+                        }
+                        .opertitle {
+                            font-size: 14px;
+                            line-height: 25px;
+                        }
+                        .demonstration {
+                            font-size: 14px;
+                            float: left;
+                            margin-right: 5px;
+                        }
+                        .oprtpeop {
+                            font-size: 12px;
+                            color: #9f9f9f;
+                            line-height: 25px;
+                            clear: both;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

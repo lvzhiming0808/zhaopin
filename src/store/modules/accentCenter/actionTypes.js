@@ -1,0 +1,5 @@
+
+// 账号管理组织结构
+export const HANDEL_ORGLEFTLIST = 'HANDEL_ORGLEFTLIST'
+// 部门详情
+export const HANDEL_ORGDEATIL = 'HANDEL_ORGDEATIL'
